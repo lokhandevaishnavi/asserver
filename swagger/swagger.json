@@ -1,0 +1,25 @@
+{
+    "swaggerDefinition": {
+      
+   
+      "info": {
+        "title": "Asset Caset API",
+        "version": "1.0.1",
+        "description": "Asset Caset API Documentation",
+        "contact": {
+          "name": "Vaishnavi"
+        },
+        
+        "servers": [
+          {
+          "url": "http://localhost:8080"
+          }
+        
+        ]
+      }
+    },
+    "apis": [
+      "index.js",
+      "./routes/*.js"
+    ]
+  }
